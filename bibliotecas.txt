@@ -1,0 +1,21 @@
+Bibliotecas do projeto Show Motors:
+expo: base do projeto (já traz o react e o react-native)
+expo-status-bar: controla a barra de status do celular
+@react-native-async-storage/async-storage: salva os dados no próprio aparelho, sem banco de dados
+@expo/vector-icons: ícones do Font Awesome, os mesmos do site
+expo-font: carrega as fontes dos ícones
+react-dom: permite rodar no navegador
+react-native-web: converte os componentes do React Native para a web
+@expo/metro-runtime: necessário para o modo web do Expo
+
+Instalar num computador novo (dentro da pasta do projeto):
+powershell
+npm install
+
+Instalar manualmente (num projeto Expo novo):
+powershell
+npx expo install @react-native-async-storage/async-storage @expo/vector-icons expo-font react-dom react-native-web @expo/metro-runtime
+
+Rodar no navegador:
+powershell
+npx expo start --web
